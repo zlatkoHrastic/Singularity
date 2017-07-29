@@ -6,10 +6,12 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/StyleOverride.css");
+    @Styles.Render("~/Content/Flex.css");
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top van-navbar">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -29,7 +31,7 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
+    <div class="container-fluid body-content">
         @RenderBody()
         <hr />
         <footer>

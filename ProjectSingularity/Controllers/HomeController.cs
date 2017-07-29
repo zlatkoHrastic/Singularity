@@ -10,21 +10,19 @@ namespace ProjectSingularity.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var linkList = new List<String>()
+            {
+                "How to play Vangaurd",
+                "Choose your Vanguard",
+                "About new products",
+                "Turnaments",
+                "Championship resoults",
+                "Current meta decks",
+                "Bushiroad official page",
+                "New episodes"
+            };
+            return View(linkList);
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }
