@@ -1,26 +1,48 @@
 ﻿body {
     background-image: url("../Resources/Images/vanguard_background.jpg");
     background-size: cover;
+    padding-bottom:0px;
 }
 
+
 .van-90w {
-    width: 90%;
+    width: 85%;
+    margin: auto;
+    position: center;
+}
+
+.van-70h {
+    height: 70%;
     margin: auto;
 }
 
 .van-main-navigation {
-    background-color: RGBA(86,11,255,0.4); /*#566FFF op 40% */
+    background-color: RGBA(86,11,255,0.5); /*#566FFF op 40% */
     color: white;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     font-size: 21px;
     border-radius: 15px;
 }
 
-    .van-main-navigation:hover {
-        background-color: RGBA(86,11,255,0.8);
-        color: white;
-        text-decoration: underline;
-    }
+.van-screen {
+    background-color: RGBA(255,255,255,0.3);
+    resize: inherit;
+}
+
+.van-img-background {
+    /*background-color:RGBA(255,255,255,0.3);*/
+    background-image: url("../Resources/Images/Emblems/gear_chronicle_emblem.png");
+    background-size: 26%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 5;
+}
+
+.van-main-navigation:hover {
+    background-color: RGBA(86,11,255,0.8);
+    color: white;
+    text-decoration: underline;
+}
 
 .van-navbar {
     background-color: #FEC960;
@@ -37,12 +59,14 @@
     -webkit-animation: spin 30s linear infinite;
     -moz-animation: spin 30s linear infinite;
     animation: spin 30s linear infinite;
+    margin: 0px 0px 0px 0px;
 }
 
 .van-main-emblem {
-    width: 30%;
-    position:inherit;
-    z-index:1;
+    max-height: 25%;
+    max-width: 25%;
+    position: inherit;
+    z-index: 1;
 }
 
 @-moz-keyframes spin {
@@ -61,5 +85,14 @@
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 640px) 
+{
+    .van-remove-small
+    {
+        display: none !important;
     }
 }

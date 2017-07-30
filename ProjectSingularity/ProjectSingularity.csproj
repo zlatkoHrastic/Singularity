@@ -188,6 +188,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resources\Images\Emblems\gear_chronicle_emblem.png" />
     <Content Include="Resources\Images\Emblems\kagero_emblem.svg" />
     <Content Include="Resources\Images\vanguard_background.jpg" />
     <Content Include="Resources\Images\vanguard_circle.png" />
