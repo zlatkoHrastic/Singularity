@@ -1,7 +1,7 @@
 ﻿body {
     background-image: url("../Resources/Images/vanguard_background.jpg");
     background-size: cover;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
 
 
@@ -89,10 +89,22 @@
 }
 
 
-@media (max-width: 640px) 
-{
-    .van-remove-small
-    {
+@media (max-width: 640px) {
+    .van-remove-small {
         display: none !important;
     }
+}
+
+.van-news-img {
+    width: 30%;
+}
+
+.van-news-img-main-container {
+    height: 45%;
+    width: 400px;
+    overflow: hidden;
+}
+
+.van-news-img-main {
+    width: 100%;
 }
