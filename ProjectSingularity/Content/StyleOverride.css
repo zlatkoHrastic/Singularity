@@ -26,7 +26,7 @@
 
 .van-screen {
     background-color: RGBA(255,255,255,0.3);
-    height:90vh;
+    height: 90vh;
 }
 
 .van-img-background {
@@ -60,6 +60,8 @@
     -moz-animation: spin 30s linear infinite;
     animation: spin 30s linear infinite;
     margin: 0px 0px 0px 0px;
+    width: auto;
+    height: auto;
 }
 
 .van-main-emblem {
