@@ -33,13 +33,14 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    height:90vh;
 }
 
 .flex-news-column {
     display: -webkit-flex;
     display: flex;
-    width: 400px;
-    height: 500px;
+    width: 25%;
+    min-height: 500px;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -47,7 +48,7 @@
 .flex-news-row {
     display: -webkit-flex;
     display: flex;
-    height: 150px;
+    height: 25%;
     background-color: RGBA(0,105,218,0.8); /*#0069DA*/
 }
 
@@ -72,7 +73,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: 320px;
+    height: 60%;
     background-color: RGBA(0,105,218,0.8);
 }
 
