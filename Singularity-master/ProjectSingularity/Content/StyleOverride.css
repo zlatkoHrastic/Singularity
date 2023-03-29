@@ -1,0 +1,114 @@
+﻿body {
+    background-image: url("../Resources/Images/vanguard_background.jpg");
+    background-size: cover;
+    padding-bottom: 0px;
+}
+
+
+.van-90w {
+    width: 85%;
+    margin: auto;
+    position: center;
+}
+
+.van-70h {
+    height: 70%;
+    margin: auto;
+}
+
+.van-main-navigation {
+    background-color: RGBA(86,11,255,0.5); /*#566FFF op 40% */
+    color: white;
+    /*text-decoration: underline;*/
+    font-size: 21px;
+    border-radius: 15px;
+}
+
+.van-screen {
+    background-color: RGBA(255,255,255,0.3);
+    height: 90vh;
+}
+
+.van-img-background {
+    /*background-color:RGBA(255,255,255,0.3);*/
+    background-image: url("../Resources/Images/Emblems/gear_chronicle_emblem.png");
+    background-size: 26%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 5;
+}
+
+.van-main-navigation:hover {
+    background-color: RGBA(86,11,255,0.8);
+    color: white;
+    text-decoration: underline;
+}
+
+.van-navbar {
+    background-color: #FEC960;
+    color: white;
+}
+
+    .van-navbar * {
+        background-color: #FEC960;
+        color: white !important;
+        font-size: 21px;
+    }
+
+.van-spinner {
+    -webkit-animation: spin 30s linear infinite;
+    -moz-animation: spin 30s linear infinite;
+    animation: spin 30s linear infinite;
+    margin: 0px 0px 0px 0px;
+    width: auto;
+    height: auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.van-main-emblem {
+    max-height: 25%;
+    max-width: 25%;
+    position: inherit;
+    z-index: 1;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 640px) {
+    .van-remove-small {
+        display: none !important;
+    }
+}
+
+.van-news-img {
+    width: 30%;
+}
+
+.van-news-img-main-container {
+    height: 45%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.van-news-img-main {
+    width: 100%;
+}

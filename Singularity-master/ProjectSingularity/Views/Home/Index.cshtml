@@ -1,0 +1,19 @@
+﻿@model List<String>
+@{
+    ViewBag.Title = "Home Page";
+}
+<div class="flex-container-page">
+    <div class="flex-container-50 van-img-background van-remove-small" >
+        <img src="~/Resources/Images/vanguard_circle.png" class="van-90w van-spinner " />
+        @*<img src="~/Resources/Images/Emblems/kagero_emblem.svg" class="van-main-emblem" />*@
+    </div>
+    <div class="flex-container-navigation">
+        @foreach (var link in Model)
+        {
+            <button type="button" class="btn btn-default van-90w van-main-navigation">@link</button>
+            <br />
+        }
+
+    </div>
+</div>
+
